@@ -95,8 +95,8 @@ export default defineConfig({
             { text: 'UserOperations', link: '/docs/account-abstraction/userOperations.md' },
             { text: 'Bundler', link: '/docs/account-abstraction/bundler.md' },
             { text: 'EntryPoint', link: '/docs/account-abstraction/entryPoint.md' },
-            { text: 'Account Contract', link: '/docs/account-abstraction/account-contract.md' },
-            { text: 'Paymaster', link: '/docs/account-abstraction/paymaster.md' },
+            // { text: 'Account Contract', link: '/docs/account-abstraction/account-contract.md' },
+            // { text: 'Paymaster', link: '/docs/account-abstraction/paymaster.md' },
           ]
         },
       ],
