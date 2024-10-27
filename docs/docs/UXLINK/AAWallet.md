@@ -7,6 +7,51 @@
 
 ![createAccount](../../public/images/createAccount.png)
 
+这里给出一个前端获取、部署Account Contract的方法，可做参考：
+```ts
+import { BigNumber, ethers } from "ethers";
+
+const wallet: ethers.Wallet | null = null;
+const factoryContract: ethers.Contract | null = null;
+const salt =  "****";
+const getOrCreateAccount = async () => {
+  if (wallet && factoryContract && salt) {
+    const accountAddress = await factoryContract.getAddress(wallet.address, salt);
+
+    const code = await provider.getCode(accountAddress);
+    if (code !== '0x') {
+      setAaAccountAddress(accountAddress);
+      return {
+        isNewAccunt: false,
+        accountAddress: accountAddress,
+      };
+    }
+
+    const tx = await factoryContract.createAccount(wallet.address, salt, {
+      gasLimit: 500000,
+      gasPrice: ethers.utils.parseUnits('10', 'gwei'),
+      from: wallet.address,
+    });
+    const receipt = await tx.wait();
+    if (receipt.logs && receipt.logs.length > 0) {
+      setAaAccountAddress(receipt.logs[0].address);
+      return {
+        isNewAccunt: true,
+        accountAddress: receipt.logs[0].address,
+      };
+    } else if (receipt.events && receipt.events.length > 0) {
+      setAaAccountAddress(receipt.events[0].address);
+      return {
+        isNewAccunt: true,
+        accountAddress: receipt.events[0].address,
+      };
+    } 
+  }
+  return null;
+}
+```
+
+
 ## Factory合约地址
 这里给出[account-abstraction](https://github.com/eth-infinitism/account-abstraction)中SimpleAccountFactory的部署地址：
 - AccountFactory 对应于 Entrypoint v0.6 的地址：0x9406Cc6185a346906296840746125a0E44976454
