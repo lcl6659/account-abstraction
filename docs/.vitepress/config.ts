@@ -75,7 +75,7 @@ export default defineConfig({
           link: '/docs/',
         },
         {
-          text: 'UXLINK AA',
+          text: 'UXLINK AA Wallet',
           link: '/docs/UXLINK/introduction',
           collapsed: false,
           items: [

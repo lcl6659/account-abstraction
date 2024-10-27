@@ -7,7 +7,7 @@
 
 ![createAccount](../../public/images/createAccount.png)
 
-这里给出一个前端获取、部署Account Contract的方法，可做参考：
+这里给一个获取、部署Account Contract的ts语法实现，可做参考：
 ```ts
 import { BigNumber, ethers } from "ethers";
 
