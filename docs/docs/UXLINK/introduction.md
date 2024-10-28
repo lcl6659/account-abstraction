@@ -4,7 +4,7 @@
 ## 架构设计
 1. 用户使用EOA钱包或者社交账号（twitter、telegram、line等）登录我们的DAPP后，系统会为用户创建一个MPC钱包，称之为 `UXWallet`。
 2. 基于 `UXWallet`，`UXLINK`会为用户创建一个`AA 钱包`（创建智能合约账户）。
-3. `UXLINK Paymater` 合约，让用户可以方便的使用`UXLINK token`，支付交易过程中的`Gas费`。Paymaster合约中使用了`预言机`，可以实时获取`UXLINK token` 和`ETH` 的价格比例，所以用户不必担心 使用了UXLINK支付Gas费，会出现Gas费超额的问题。
+3. `UXLINK Paymater` 合约，让用户可以使用`UXLINK token`，支付交易过程中的`Gas费`。
 4. 支持跨链，基于Unichain的技术支持，实现token和交易的跨链支持，让用户不必在各个链上浪费时间和精力，我们提供无感的跨链支持。
 
 

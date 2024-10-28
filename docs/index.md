@@ -17,8 +17,8 @@ features:
   - title: UXLINK Account Abstraction
     details: 了解UXLINK实现的Account Abstraction
     link: /docs/UXLINK/introduction
-  - title: ERC-4337 Guides
-    details: 深入了解 ERC-4337 所有细节
-    link: /docs/account-abstraction/introduction
+  # - title: ERC-4337 Guides
+  #   details: 深入了解 ERC-4337 所有细节
+  #   link: /docs/account-abstraction/introduction
 ---
 

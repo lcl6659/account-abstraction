@@ -76,29 +76,25 @@ export default defineConfig({
         },
         {
           text: 'UXLINK AA Wallet',
-          link: '/docs/UXLINK/introduction',
+          link: '/docs/UXLINK/introduction.md',
           collapsed: false,
           items: [
-            { text: 'Introduction', link: '/docs/UXLINK/introduction.md' },
-            { text: 'UXWallet', link: '/docs/UXLINK/UXWallet.md' },
             { text: 'AA Wallet', link: '/docs/UXLINK/AAWallet.md' },
             { text: 'Paymaster', link: '/docs/UXLINK/paymaster.md' },
             { text: 'Cross-Chain', link: '/docs/UXLINK/crossChain.md' },
           ]
         },
-        {
-          text: 'ERC-4337 Guides',
-          link: '/docs/account-abstraction/introduction',
-          collapsed: false,
-          items: [
-            { text: 'Introduction', link: '/docs/account-abstraction/introduction.md' },
-            { text: 'UserOperations', link: '/docs/account-abstraction/userOperations.md' },
-            { text: 'Bundler', link: '/docs/account-abstraction/bundler.md' },
-            { text: 'EntryPoint', link: '/docs/account-abstraction/entryPoint.md' },
-            // { text: 'Account Contract', link: '/docs/account-abstraction/account-contract.md' },
-            // { text: 'Paymaster', link: '/docs/account-abstraction/paymaster.md' },
-          ]
-        },
+        // {
+        //   text: 'ERC-4337 Guides',
+        //   link: '/docs/account-abstraction/introduction',
+        //   collapsed: false,
+        //   items: [
+        //     { text: 'Introduction', link: '/docs/account-abstraction/introduction.md' },
+        //     { text: 'UserOperations', link: '/docs/account-abstraction/userOperations.md' },
+        //     { text: 'Bundler', link: '/docs/account-abstraction/bundler.md' },
+        //     { text: 'EntryPoint', link: '/docs/account-abstraction/entryPoint.md' },
+        //   ]
+        // },
       ],
     },
 

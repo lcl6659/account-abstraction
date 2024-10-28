@@ -3,7 +3,7 @@
 
 ## Features
 1. [UXLINK AA Wallet](/docs/UXLINK/introduction.md)：详述整体的架构设计，以及关键部分的实现逻辑。
-2. [ERC-4337 Guides](account-abstraction/introduction.md)：什么是Account Abstraction，为什么要使用Account Abstraction，以及Account Abstraction的主要构成和工作流程。
+<!-- 2. [ERC-4337 Guides](account-abstraction/introduction.md)：什么是Account Abstraction，为什么要使用Account Abstraction，以及Account Abstraction的主要构成和工作流程。 -->
 
 ## Demo
 coming soon...
