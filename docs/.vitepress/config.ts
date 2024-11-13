@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "UXLINK Account Abstraction",
-  description: "UXLINK Account Abstraction, ERC-4337",
+  title: "Account Abstraction",
+  description: "Account Abstraction, ERC-4337",
   lastUpdated: true,
   ignoreDeadLinks: true,
   lang: 'en-US',
@@ -23,7 +23,6 @@ export default defineConfig({
   base: "/",
   appearance: true,
   themeConfig: {
-    logo: "/logo.png",
     logoLink: "/",
     nav: [
       { text: 'Home', link: '/', activeMatch: '/' },
@@ -35,27 +34,47 @@ export default defineConfig({
           text: 'Overview',
           link: '/docs/',
         },
-        {
-          text: 'UXLINK AA Wallet',
-          link: '/docs/UXLINK/introduction.md',
-          collapsed: false,
-          items: [
-            { text: 'AA Wallet', link: '/docs/UXLINK/AAWallet.md' },
-            { text: 'Paymaster', link: '/docs/UXLINK/paymaster.md' },
-            { text: 'Cross-Chain', link: '/docs/UXLINK/crossChain.md' },
-          ]
-        },
         // {
-        //   text: 'ERC-4337 Guides',
-        //   link: '/docs/account-abstraction/introduction',
+        //   text: 'UXLINK AA Wallet',
+        //   link: '/docs/UXLINK/introduction.md',
         //   collapsed: false,
         //   items: [
-        //     { text: 'Introduction', link: '/docs/account-abstraction/introduction.md' },
-        //     { text: 'UserOperations', link: '/docs/account-abstraction/userOperations.md' },
-        //     { text: 'Bundler', link: '/docs/account-abstraction/bundler.md' },
-        //     { text: 'EntryPoint', link: '/docs/account-abstraction/entryPoint.md' },
+        //     { text: 'AA Wallet', link: '/docs/UXLINK/AAWallet.md' },
+        //     { text: 'Paymaster', link: '/docs/UXLINK/paymaster.md' },
+        //     { text: 'Cross-Chain', link: '/docs/UXLINK/crossChain.md' },
         //   ]
         // },
+        // {
+        //   text: 'SDK',
+        //   link: '/docs/SDK/quickStart',
+        //   collapsed: false,
+        //   items: [
+        //     { text: 'quickStart', link: 'docs/SDK/quickStart.md' },
+        //     { text: 'ingestionAPI', link: 'docs/SDK/ingestionAPI.md' },
+        //   ]
+        // },
+        // {
+        //   text: 'Blog',
+        //   link: '/docs/blog/aa-blog-en.md',
+        //   collapsed: false,
+        //   items: [
+        //     { text: 'AA - EN', link: '/docs/blog/aa-blog-en.md' },
+        //     { text: 'AA - CN', link: '/docs/blog/aa-blog.md' },
+        //   ]
+        // },
+        {
+          text: 'ERC-4337 Guides',
+          link: '/docs/account-abstraction/introduction.md',
+          collapsed: false,
+          items: [
+            { text: 'Introduction', link: '/docs/account-abstraction/introduction.md' },
+            { text: 'Account', link: '/docs/account-abstraction/account-contract.md' },
+            { text: 'UserOperations', link: '/docs/account-abstraction/userOperations.md' },
+            { text: 'Bundler', link: '/docs/account-abstraction/bundler.md' },
+            { text: 'EntryPoint', link: '/docs/account-abstraction/entryPoint.md' },
+            { text: 'Paymaster', link: '/docs/account-abstraction/paymaster.md' },
+          ]
+        },
       ],
     },
     // socialLinks: [

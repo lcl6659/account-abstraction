@@ -1,13 +1,12 @@
 # Overview
-通过此文档，您将知道什么是Account Abstraction，以及UXLINK是如何基于ERC-4337实现Account Abstraction。
+通过此文档，您将知道什么是Account Abstraction，以及如何基于ERC-4337实现Account Abstraction。
 
-## Features
-1. [UXLINK AA Wallet](/docs/UXLINK/introduction.md)：详述整体的架构设计，以及关键部分的实现逻辑。
-<!-- 2. [ERC-4337 Guides](account-abstraction/introduction.md)：什么是Account Abstraction，为什么要使用Account Abstraction，以及Account Abstraction的主要构成和工作流程。 -->
+## 架构设计
+1. 用户使用EOA钱包或者社交账号（twitter、telegram、line等）登录
+2. 为用户创建一个`AA 钱包`（创建智能合约账户）。
+3. `Paymater` 合约，让用户可以使用`ERC20 token`，支付交易过程中的`Gas费`。
 
-## Demo
-coming soon...
-
+![overview](../public/images/overview.png)
 ## 参考
 - https://www.erc4337.io/docs
 - https://eips.ethereum.org/EIPS/eip-4337#paymasters
