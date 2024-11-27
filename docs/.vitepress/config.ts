@@ -30,10 +30,10 @@ export default defineConfig({
 
     sidebar: {
       '/docs/': [
-        {
-          text: 'Overview',
-          link: '/docs/',
-        },
+        // {
+        //   text: 'Overview',
+        //   link: '/docs/blog/aa-blog-en.md',
+        // },
         // {
         //   text: 'UXLINK AA Wallet',
         //   link: '/docs/UXLINK/introduction.md',
@@ -53,15 +53,6 @@ export default defineConfig({
         //     { text: 'ingestionAPI', link: 'docs/SDK/ingestionAPI.md' },
         //   ]
         // },
-        // {
-        //   text: 'Blog',
-        //   link: '/docs/blog/aa-blog-en.md',
-        //   collapsed: false,
-        //   items: [
-        //     { text: 'AA - EN', link: '/docs/blog/aa-blog-en.md' },
-        //     { text: 'AA - CN', link: '/docs/blog/aa-blog.md' },
-        //   ]
-        // },
         {
           text: 'ERC-4337 Guides',
           link: '/docs/account-abstraction/introduction.md',
@@ -73,6 +64,17 @@ export default defineConfig({
             { text: 'Bundler', link: '/docs/account-abstraction/bundler.md' },
             { text: 'EntryPoint', link: '/docs/account-abstraction/entryPoint.md' },
             { text: 'Paymaster', link: '/docs/account-abstraction/paymaster.md' },
+          ]
+        },
+        {
+          text: 'Blog',
+          link: '/docs/blog/UXLINK-Account-Demo.md',
+          collapsed: false,
+          items: [
+            // { text: 'AA - EN', link: '/docs/blog/aa-blog-en.md' },
+            // { text: 'AA - CN', link: '/docs/blog/aa-blog.md' },
+            { text: 'UXLINK Account Demo en', link: '/docs/blog/UXLINK-Account-Demo-en.md' },
+            { text: 'UXLINK Account Demo', link: '/docs/blog/UXLINK-Account-Demo.md' },
           ]
         },
       ],
