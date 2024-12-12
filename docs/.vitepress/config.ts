@@ -73,8 +73,10 @@ export default defineConfig({
           items: [
             // { text: 'AA - EN', link: '/docs/blog/aa-blog-en.md' },
             // { text: 'AA - CN', link: '/docs/blog/aa-blog.md' },
-            { text: 'UXLINK Account Demo en', link: '/docs/blog/UXLINK-Account-Demo-en.md' },
-            { text: 'UXLINK Account Demo', link: '/docs/blog/UXLINK-Account-Demo.md' },
+            { text: 'UXLINK Account en', link: '/docs/blog/UXLINK-Account-Demo-en.md' },
+            { text: 'UXLINK Account', link: '/docs/blog/UXLINK-Account-Demo.md' },
+            { text: 'UXLINK Account CheckIn en', link: '/docs/blog/UXLINK-Account-Demo-CheckIn-en.md' },
+            { text: 'UXLINK Account CheckIn', link: '/docs/blog/UXLINK-Account-Demo-CheckIn.md' },
           ]
         },
       ],
