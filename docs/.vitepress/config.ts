@@ -77,6 +77,8 @@ export default defineConfig({
             { text: 'UXLINK Account', link: '/docs/blog/UXLINK-Account-Demo.md' },
             { text: 'UXLINK Account CheckIn en', link: '/docs/blog/UXLINK-Account-Demo-CheckIn-en.md' },
             { text: 'UXLINK Account CheckIn', link: '/docs/blog/UXLINK-Account-Demo-CheckIn.md' },
+            { text: 'UXLINK Account Cross Chian en', link: '/docs/blog/UXLINK-Account_Demo-CrossChian-en.md' },
+            { text: 'UXLINK Account Cross Chian', link: '/docs/blog/UXLINK-Account_Demo-CrossChian.md' },
           ]
         },
       ],
