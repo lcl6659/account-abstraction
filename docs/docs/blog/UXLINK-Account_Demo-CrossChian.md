@@ -11,7 +11,7 @@ UXLINK Account 项目再次升级！除了受欢迎的 Check In 功能，现在�
 ## UXLINK Account 体验地址
 欢迎访问 UXLINK Account Demo 项目链接：https://one-account-demo.uxlink.io/
 
-<video controls src="../../public/video/UXLINK-Account-CheckIn.mp4" title="UXLINK Account CheckIn"></video>
+<video controls src="../../public/video/UXLINK-Account-Cross-Chain.mp4" title="UXLINK Account Cross Chain"></video>
 
 ## 新用户操作指引
 ### 1. 账户登录

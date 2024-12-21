@@ -11,7 +11,7 @@ The realization of cross-chain capabilities offers users an unparalleled digital
 ## UXLINK Account Experience Link
 Feel free to explore the UXLINK Account Demo: [https://one-account-demo.uxlink.io/](https://one-account-demo.uxlink.io/)
 
-<video controls src="../../public/video/UXLINK-Account-CheckIn.mp4" title="UXLINK Account CheckIn"></video>
+<video controls src="../../public/video/UXLINK-Account-Cross-Chain.mp4" title="UXLINK Account Cross Chain"></video>
 
 ## New User Guide
 ### 1. Initialize Your UXLINK Account​
