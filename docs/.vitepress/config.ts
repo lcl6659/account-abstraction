@@ -71,14 +71,16 @@ export default defineConfig({
           link: '/docs/blog/UXLINK-Account-Demo.md',
           collapsed: false,
           items: [
-            // { text: 'AA - EN', link: '/docs/blog/aa-blog-en.md' },
-            // { text: 'AA - CN', link: '/docs/blog/aa-blog.md' },
+            { text: 'AA - EN', link: '/docs/blog/aa-blog-en.md' },
+            { text: 'AA - CN', link: '/docs/blog/aa-blog.md' },
             { text: 'UXLINK Account en', link: '/docs/blog/UXLINK-Account-Demo-en.md' },
             { text: 'UXLINK Account', link: '/docs/blog/UXLINK-Account-Demo.md' },
             { text: 'UXLINK Account CheckIn en', link: '/docs/blog/UXLINK-Account-Demo-CheckIn-en.md' },
             { text: 'UXLINK Account CheckIn', link: '/docs/blog/UXLINK-Account-Demo-CheckIn.md' },
             { text: 'UXLINK Account Cross Chian en', link: '/docs/blog/UXLINK-Account_Demo-CrossChian-en.md' },
             { text: 'UXLINK Account Cross Chian', link: '/docs/blog/UXLINK-Account_Demo-CrossChian.md' },
+            { text: 'UXLINK Account-en', link: '/docs/blog/UXLINK-Account-en.md' },
+            { text: 'UXLINK Account', link: '/docs/blog/UXLINK-Account.md' },
           ]
         },
       ],
