@@ -14,9 +14,9 @@ To further optimize user experience, UXLINK Chain employs UXLINK Token as its na
 
 To achieve flexible and efficient cross-chain transactions, UXLINK Account employs an innovative structure that utilizes side-chain accounting along with main-chain gas payments. The basic process for cross-chain transactions is as follows:
 
-1. **Side-Chain Accounting**: Whenever a user initiates a transaction across different chains, the transaction information is recorded on the corresponding side chain. This design alleviates the burden on the main chain, enhancing the overall system's performance and responsiveness.
+1. **Destination chain Accounting**: Whenever a user initiates a transaction across different chains, the transaction information is recorded on the corresponding side chain. This design alleviates the burden on the main chain, enhancing the overall system's performance and responsiveness.
    
-2. **Main-Chain Gas Payments**: When performing cross-chain operations, the required gas fees are handled by the main chain of UXLINK. This approach ensures the transparency and traceability of transactions, relieving users of the need to constantly worry about varying gas fees across different chains, thereby significantly improving operational convenience.
+2. **UXLINK Chain Gas Payments**: When performing cross-chain operations, the required gas fees are handled by the main chain of UXLINK. This approach ensures the transparency and traceability of transactions, relieving users of the need to constantly worry about varying gas fees across different chains, thereby significantly improving operational convenience.
 
 Through these innovative mechanisms, UXLINK Account supports cross-chain sign-in between test chains such as Ethereum Sepolia, Arbitrum Sepolia, and Mantle Sepolia, markedly enhancing user experience.
 
